@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 export default function Lesson({ lesson, onDone }) {
+  const [stage, setStage] = useState(lesson.teach ? 'teach' : 'quiz');
   const [index, setIndex] = useState(0);
   const [feedback, setFeedback] = useState(null);
   const [correctCount, setCorrectCount] = useState(0);
-  const [finished, setFinished] = useState(false);
 
   const question = lesson.questions[index];
 
@@ -19,17 +19,31 @@ export default function Lesson({ lesson, onDone }) {
       if (index + 1 < lesson.questions.length) {
         setIndex(i => i + 1);
       } else {
-        setFinished(true);
+        setStage('review');
       }
     }, 900);
   }
 
-  if (finished) {
+  if (stage === 'teach') {
+    return (
+      <div className="teach">
+        <h2>{lesson.title}</h2>
+        <p className="teach-intro">{lesson.teach.intro}</p>
+        <ul className="teach-examples">
+          {lesson.teach.examples.map((ex, i) => <li key={i}>{ex}</li>)}
+        </ul>
+        <button className="back-btn" onClick={() => setStage('quiz')}>Start Practice</button>
+      </div>
+    );
+  }
+
+  if (stage === 'review') {
     return (
       <div className="lesson-done">
         <div className="sticker">🌟</div>
         <h2>Great job!</h2>
         <p>You got {correctCount} out of {lesson.questions.length} right!</p>
+        {lesson.review && <p className="review-text">{lesson.review}</p>}
         <button className="back-btn" onClick={onDone}>Back to Lessons</button>
       </div>
     );

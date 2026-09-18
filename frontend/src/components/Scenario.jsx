@@ -1,10 +1,20 @@
 import { useState } from 'react';
 
 export default function Scenario({ scenario, onDone }) {
+  const [stage, setStage] = useState(scenario.teach ? 'teach' : 'scenario');
   const [choiceFeedback, setChoiceFeedback] = useState(null);
-  const [showDiscussion, setShowDiscussion] = useState(false);
 
-  if (showDiscussion) {
+  if (stage === 'teach') {
+    return (
+      <div className="teach">
+        <h2>{scenario.title}</h2>
+        <p className="teach-intro">{scenario.teach}</p>
+        <button className="back-btn" onClick={() => setStage('scenario')}>Continue</button>
+      </div>
+    );
+  }
+
+  if (stage === 'discussion') {
     return (
       <div className="lesson-done">
         <div className="sticker">🤝</div>
@@ -31,7 +41,7 @@ export default function Scenario({ scenario, onDone }) {
       {choiceFeedback && (
         <div>
           <p className={`feedback ${choiceFeedback.correct ? 'correct' : 'wrong'}`}>{choiceFeedback.feedback}</p>
-          <button className="back-btn" onClick={() => setShowDiscussion(true)}>Continue</button>
+          <button className="back-btn" onClick={() => setStage('discussion')}>Continue</button>
         </div>
       )}
     </div>
