@@ -13,6 +13,7 @@ body { margin: 0; font-family: -apple-system, sans-serif; background: #F7F7FA; }
 .tile-emoji { font-size: 2.5rem; }
 .tile-label { font-size: 1.1rem; font-weight: 700; color: #333; }
 
+.lesson h2, .lesson-done h2, .placeholder h2 { color: #333; }
 .lesson, .lesson-done, .placeholder {
   max-width: 480px; margin: 40px auto; text-align: center;
   background: white; border-radius: 20px; padding: 32px 20px;
@@ -22,7 +23,7 @@ body { margin: 0; font-family: -apple-system, sans-serif; background: #F7F7FA; }
 .options { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
 .option-btn {
   padding: 16px; font-size: 1.1rem; border-radius: 14px; border: 2px solid #ddd;
-  background: #fafafa; cursor: pointer;
+  background: #fafafa; cursor: pointer; color: #222; font-weight: 600;
 }
 .option-btn:active { background: #eee; }
 .feedback { font-weight: 700; font-size: 1.1rem; }
