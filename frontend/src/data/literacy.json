@@ -1,9 +1,53 @@
 {
-  "title": "Letter Sounds",
-  "questions": [
-    { "id": 1, "prompt": "Which word starts with the /b/ sound?", "options": ["Ball", "Cat", "Dog"], "answer": "Ball" },
-    { "id": 2, "prompt": "Which word starts with the /s/ sound?", "options": ["Moon", "Sun", "Tree"], "answer": "Sun" },
-    { "id": 3, "prompt": "Which word starts with the /m/ sound?", "options": ["Moon", "Frog", "Bird"], "answer": "Moon" },
-    { "id": 4, "prompt": "Which word starts with the /f/ sound?", "options": ["Cup", "Fish", "Star"], "answer": "Fish" }
+  "lessons": [
+    {
+      "id": "beginning-sounds",
+      "title": "Beginning Sounds",
+      "questions": [
+        { "prompt": "Which word starts with the /b/ sound?", "options": ["Ball", "Cat", "Dog"], "answer": "Ball" },
+        { "prompt": "Which word starts with the /s/ sound?", "options": ["Moon", "Sun", "Tree"], "answer": "Sun" },
+        { "prompt": "Which word starts with the /m/ sound?", "options": ["Moon", "Frog", "Bird"], "answer": "Moon" },
+        { "prompt": "Which word starts with the /f/ sound?", "options": ["Cup", "Fish", "Star"], "answer": "Fish" }
+      ]
+    },
+    {
+      "id": "ending-sounds",
+      "title": "Ending Sounds",
+      "questions": [
+        { "prompt": "Which word ends with the /t/ sound?", "options": ["Cat", "Dog", "Sun"], "answer": "Cat" },
+        { "prompt": "Which word ends with the /g/ sound?", "options": ["Bed", "Dog", "Cup"], "answer": "Dog" },
+        { "prompt": "Which word ends with the /n/ sound?", "options": ["Sun", "Top", "Bug"], "answer": "Sun" },
+        { "prompt": "Which word ends with the /p/ sound?", "options": ["Map", "Bell", "Fish"], "answer": "Map" }
+      ]
+    },
+    {
+      "id": "rhyming-words",
+      "title": "Rhyming Words",
+      "questions": [
+        { "prompt": "Which word rhymes with 'cat'?", "options": ["Hat", "Dog", "Sun"], "answer": "Hat" },
+        { "prompt": "Which word rhymes with 'log'?", "options": ["Dog", "Cup", "Bee"], "answer": "Dog" },
+        { "prompt": "Which word rhymes with 'bee'?", "options": ["Tree", "Cat", "Sun"], "answer": "Tree" },
+        { "prompt": "Which word rhymes with 'pan'?", "options": ["Man", "Dog", "Cup"], "answer": "Man" }
+      ]
+    },
+    {
+      "id": "sight-words",
+      "title": "Sight Words",
+      "questions": [
+        { "prompt": "Which word says 'the'?", "options": ["the", "cat", "run"], "answer": "the" },
+        { "prompt": "Which word says 'and'?", "options": ["and", "dog", "sun"], "answer": "and" },
+        { "prompt": "Which word says 'is'?", "options": ["is", "big", "top"], "answer": "is" },
+        { "prompt": "Which word says 'you'?", "options": ["you", "run", "cat"], "answer": "you" }
+      ]
+    },
+    {
+      "id": "reading-comprehension",
+      "title": "Story Time: What Happened?",
+      "questions": [
+        { "prompt": "Sam has a red ball. What color is the ball?", "options": ["Red", "Blue", "Green"], "answer": "Red" },
+        { "prompt": "The dog ran to the park. Where did the dog go?", "options": ["The park", "The store", "School"], "answer": "The park" },
+        { "prompt": "Mia ate an apple for lunch. What did Mia eat?", "options": ["An apple", "A sandwich", "Soup"], "answer": "An apple" }
+      ]
+    }
   ]
 }

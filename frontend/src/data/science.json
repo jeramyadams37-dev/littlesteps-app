@@ -1,0 +1,53 @@
+{
+  "lessons": [
+    {
+      "id": "five-senses",
+      "title": "The Five Senses",
+      "questions": [
+        { "prompt": "Which body part do you use to smell?", "options": ["Nose", "Ear", "Foot"], "answer": "Nose" },
+        { "prompt": "Which body part do you use to hear?", "options": ["Ears", "Eyes", "Hands"], "answer": "Ears" },
+        { "prompt": "Which body part do you use to see?", "options": ["Eyes", "Nose", "Tongue"], "answer": "Eyes" },
+        { "prompt": "Which body part do you use to taste?", "options": ["Tongue", "Ears", "Nose"], "answer": "Tongue" }
+      ]
+    },
+    {
+      "id": "weather-seasons",
+      "title": "Weather & Seasons",
+      "questions": [
+        { "prompt": "Which season is usually the hottest?", "options": ["Summer", "Winter", "Fall"], "answer": "Summer" },
+        { "prompt": "What falls from clouds when it rains?", "options": ["Water", "Sand", "Leaves"], "answer": "Water" },
+        { "prompt": "Which season do leaves usually fall?", "options": ["Fall", "Summer", "Spring"], "answer": "Fall" },
+        { "prompt": "What do you wear outside when it's snowing?", "options": ["A coat", "Shorts", "Sandals"], "answer": "A coat" }
+      ]
+    },
+    {
+      "id": "living-nonliving",
+      "title": "Living vs Non-Living",
+      "questions": [
+        { "prompt": "Which one is living?", "options": ["A tree", "A rock", "A chair"], "answer": "A tree" },
+        { "prompt": "Which one is non-living?", "options": ["A book", "A dog", "A bird"], "answer": "A book" },
+        { "prompt": "Which one needs food and water to grow?", "options": ["A plant", "A car", "A table"], "answer": "A plant" },
+        { "prompt": "Which one is living?", "options": ["A fish", "A ball", "A cup"], "answer": "A fish" }
+      ]
+    },
+    {
+      "id": "animal-habitats",
+      "title": "Animal Habitats",
+      "questions": [
+        { "prompt": "Where does a fish live?", "options": ["Water", "Trees", "Desert"], "answer": "Water" },
+        { "prompt": "Where does a bird build its nest?", "options": ["Trees", "Water", "Underground"], "answer": "Trees" },
+        { "prompt": "Where does a bear live?", "options": ["Forest", "Ocean", "Desert"], "answer": "Forest" },
+        { "prompt": "Where does a camel live?", "options": ["Desert", "Ocean", "Forest"], "answer": "Desert" }
+      ]
+    },
+    {
+      "id": "plant-needs",
+      "title": "What Plants Need",
+      "questions": [
+        { "prompt": "What do plants need to grow, besides water?", "options": ["Sunlight", "Ice", "Sand"], "answer": "Sunlight" },
+        { "prompt": "Where do plants get water from?", "options": ["Their roots", "Their leaves", "The sky only"], "answer": "Their roots" },
+        { "prompt": "What color are most plant leaves?", "options": ["Green", "Blue", "Red"], "answer": "Green" }
+      ]
+    }
+  ]
+}

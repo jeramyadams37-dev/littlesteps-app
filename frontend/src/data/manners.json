@@ -1,0 +1,54 @@
+{
+  "scenarios": [
+    {
+      "id": "sharing-toys",
+      "title": "Sharing Toys",
+      "prompt": "You're playing with your favorite toy. Your friend asks if they can play too. What do you do?",
+      "choices": [
+        { "text": "Say no and keep playing alone", "correct": false, "feedback": "That might make your friend feel left out." },
+        { "text": "Take turns playing with the toy", "correct": true, "feedback": "Great choice! Sharing makes everyone happy." }
+      ],
+      "discussion": "Talk about a time you shared something with a friend. How did it feel?"
+    },
+    {
+      "id": "saying-sorry",
+      "title": "Saying Sorry",
+      "prompt": "You accidentally knock over your friend's block tower. What should you do?",
+      "choices": [
+        { "text": "Walk away and say nothing", "correct": false, "feedback": "It's kind to own up to mistakes." },
+        { "text": "Say sorry and help rebuild it", "correct": true, "feedback": "Nice! Apologizing and helping fix things shows real care." }
+      ],
+      "discussion": "Why is it important to say sorry even when we didn't mean to make a mistake?"
+    },
+    {
+      "id": "waiting-turn",
+      "title": "Waiting Your Turn",
+      "prompt": "You really want to go down the slide, but two kids are ahead of you in line. What do you do?",
+      "choices": [
+        { "text": "Cut in front of them", "correct": false, "feedback": "Cutting in line isn't fair to others waiting." },
+        { "text": "Wait patiently for your turn", "correct": true, "feedback": "Awesome! Waiting your turn is fair to everyone." }
+      ],
+      "discussion": "How do you feel when someone cuts in front of you? How can we remember to be patient?"
+    },
+    {
+      "id": "good-listener",
+      "title": "Being a Good Listener",
+      "prompt": "Your teacher is giving instructions, but you want to talk to your friend. What should you do?",
+      "choices": [
+        { "text": "Keep talking to your friend", "correct": false, "feedback": "It's easy to miss important instructions this way." },
+        { "text": "Listen quietly to the teacher", "correct": true, "feedback": "Great! Good listening helps you learn and shows respect." }
+      ],
+      "discussion": "Why does it help others when we listen quietly while they're speaking?"
+    },
+    {
+      "id": "helping-friend",
+      "title": "Helping a Friend",
+      "prompt": "You see a friend trip and drop their books. What do you do?",
+      "choices": [
+        { "text": "Walk past without helping", "correct": false, "feedback": "A little help can make someone's day better." },
+        { "text": "Stop and help pick up the books", "correct": true, "feedback": "Wonderful! Helping others is a great way to show kindness." }
+      ],
+      "discussion": "Can you think of another time you could help a friend or family member?"
+    }
+  ]
+}

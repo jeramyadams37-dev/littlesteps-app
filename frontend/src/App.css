@@ -34,3 +34,11 @@ body { margin: 0; font-family: -apple-system, sans-serif; background: #F7F7FA; }
   margin-top: 16px; padding: 12px 20px; border: none; border-radius: 12px;
   background: #4ECDC4; color: white; font-weight: 700; cursor: pointer;
 }
+
+.subject-home h1 { text-align: center; color: #333; margin-bottom: 20px; }
+.lesson-list { display: flex; flex-direction: column; gap: 12px; max-width: 480px; margin: 0 auto; }
+.lesson-card {
+  padding: 18px; border-radius: 14px; border: none; background: white;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1); font-size: 1.05rem; font-weight: 600;
+  color: #333; text-align: left; cursor: pointer;
+}

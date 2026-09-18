@@ -1,0 +1,54 @@
+{
+  "lessons": [
+    {
+      "id": "counting-20",
+      "title": "Counting to 20",
+      "questions": [
+        { "prompt": "What number comes after 7?", "options": ["8", "6", "9"], "answer": "8" },
+        { "prompt": "What number comes after 12?", "options": ["11", "13", "14"], "answer": "13" },
+        { "prompt": "Which number is bigger: 15 or 9?", "options": ["15", "9", "They're equal"], "answer": "15" },
+        { "prompt": "What number comes before 20?", "options": ["19", "21", "18"], "answer": "19" }
+      ]
+    },
+    {
+      "id": "addition-10",
+      "title": "Addition within 10",
+      "questions": [
+        { "prompt": "2 + 3 = ?", "options": ["5", "4", "6"], "answer": "5" },
+        { "prompt": "4 + 4 = ?", "options": ["7", "8", "9"], "answer": "8" },
+        { "prompt": "1 + 6 = ?", "options": ["7", "6", "8"], "answer": "7" },
+        { "prompt": "5 + 5 = ?", "options": ["9", "10", "11"], "answer": "10" }
+      ]
+    },
+    {
+      "id": "subtraction-10",
+      "title": "Subtraction within 10",
+      "questions": [
+        { "prompt": "5 - 2 = ?", "options": ["3", "2", "4"], "answer": "3" },
+        { "prompt": "9 - 4 = ?", "options": ["5", "6", "4"], "answer": "5" },
+        { "prompt": "7 - 7 = ?", "options": ["0", "1", "7"], "answer": "0" },
+        { "prompt": "10 - 3 = ?", "options": ["6", "7", "8"], "answer": "7" }
+      ]
+    },
+    {
+      "id": "shapes",
+      "title": "Shapes",
+      "questions": [
+        { "prompt": "A shape with 3 sides is called a...", "options": ["Triangle", "Square", "Circle"], "answer": "Triangle" },
+        { "prompt": "A shape with 4 equal sides is called a...", "options": ["Square", "Triangle", "Oval"], "answer": "Square" },
+        { "prompt": "A shape with no corners is called a...", "options": ["Circle", "Rectangle", "Star"], "answer": "Circle" },
+        { "prompt": "A shape with 4 sides, 2 long and 2 short, is called a...", "options": ["Rectangle", "Triangle", "Circle"], "answer": "Rectangle" }
+      ]
+    },
+    {
+      "id": "comparing-numbers",
+      "title": "Comparing Numbers",
+      "questions": [
+        { "prompt": "Which is more: 4 or 9?", "options": ["9", "4", "Same"], "answer": "9" },
+        { "prompt": "Which is less: 12 or 6?", "options": ["6", "12", "Same"], "answer": "6" },
+        { "prompt": "Which is more: 10 or 10?", "options": ["Same", "First one", "Second one"], "answer": "Same" },
+        { "prompt": "Which is less: 3 or 8?", "options": ["3", "8", "Same"], "answer": "3" }
+      ]
+    }
+  ]
+}
