@@ -43,6 +43,21 @@ jobs:
         working-directory: frontend
         run: npx cap add android
 
+      - name: Install SVG converter
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+
+      - name: Convert icon to PNG
+        working-directory: frontend
+        run: rsvg-convert -w 1024 -h 1024 resources/icon.svg -o resources/icon.png
+
+      - name: Install icon generator
+        working-directory: frontend
+        run: npm install @capacitor/assets --save-dev
+
+      - name: Generate app icons
+        working-directory: frontend
+        run: npx capacitor-assets generate --android
+
       - name: Sync Capacitor
         working-directory: frontend
         run: npx cap sync android
