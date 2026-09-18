@@ -35,6 +35,10 @@ jobs:
         working-directory: frontend
         run: npm run build
 
+      - name: Install Capacitor Android
+        working-directory: frontend
+        run: npm install @capacitor/android
+
       - name: Add Android platform
         working-directory: frontend
         run: npx cap add android
