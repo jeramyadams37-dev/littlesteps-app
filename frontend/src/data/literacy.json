@@ -1,0 +1,9 @@
+{
+  "title": "Letter Sounds",
+  "questions": [
+    { "id": 1, "prompt": "Which word starts with the /b/ sound?", "options": ["Ball", "Cat", "Dog"], "answer": "Ball" },
+    { "id": 2, "prompt": "Which word starts with the /s/ sound?", "options": ["Moon", "Sun", "Tree"], "answer": "Sun" },
+    { "id": 3, "prompt": "Which word starts with the /m/ sound?", "options": ["Moon", "Frog", "Bird"], "answer": "Moon" },
+    { "id": 4, "prompt": "Which word starts with the /f/ sound?", "options": ["Cup", "Fish", "Star"], "answer": "Fish" }
+  ]
+}
